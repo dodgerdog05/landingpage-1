@@ -1,18 +1,64 @@
 /* There are many ways to tackle a project like this, and it can be overwhelming to look at a blank HTML document and not know where to start. 
 Our suggestion: take it one section at a time. The website you’re creating has 4 main sections
  (and a footer), so pick one and get it into pretty good shape before moving on. Starting at the top is always a solid plan.
-
-
-For the section you’re working on, begin by getting all the content 
-onto the page before beginning to style it. In other words, do the 
-HTML and then do the CSS. You’ll probably have to go back to the HTML 
-once you start styling, but bouncing back and forth from the beginning 
-will take more time and may cause more frustration. (Note: you don’t 
-need to use more than one stylesheet. 
-Using only one CSS file is adequate for this project).
-
 */
 
-#header {
-    background-color: blue;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: #1F2937;
+}
+
+.nav_links, li, a { 
+    padding: 3px;
+    display:inline;
+    color: white;
+    font-family: #1F2937;
+
+}
+
+.bluebox {
+    background-color:  #1f2937;
+    height: 400px;
+    max-width: 900px;
+    margin: 0 auto;
+    color:white ;
+    padding:25px;
+    flex-shrink: 1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav_links { 
+    display: flex;
+    white-space: nowrap;
+    display: inline-block;
+    float:right;
+}
+
+#headlogo, strong { 
+    font-size: larger;
+}
+
+.section1 { 
+    width:200px;
+    max-width: 200px;
+    display: inline-block;
+}
+
+.section2 { 
+    display: flex;
+    width: 500px;
+    height:500px;
+    max-width: 200px;
+    float: right;
+}
+
+img { 
+    height: 300px;
+    max-width: 300px;
+    float:right;
 }
