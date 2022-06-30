@@ -7,9 +7,8 @@ Our suggestion: take it one section at a time. The website you’re creating has
 
 
 * {
-    box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding: 20;
     font-family: #1F2937;
 }
 
@@ -44,21 +43,97 @@ Our suggestion: take it one section at a time. The website you’re creating has
 }
 
 .section1 { 
-    width:200px;
-    max-width: 200px;
+    width:500px;
+    max-width: 300px;
     display: inline-block;
+    padding: 40px;
 }
 
 .section2 { 
     display: flex;
     width: 500px;
     height:500px;
-    max-width: 200px;
-    float: right;
+    max-width: 300px;
 }
 
+.button1 { 
+    position:absolute;
+    bottom: 300px;
+    padding: 20px;
+    background-color: rgba(19, 79, 209, 0.507);
+    color: white;
+}
 img { 
     height: 300px;
     max-width: 300px;
-    float:right;
+    position: absolute;
+    right:350px;
+    top: 120px;
+    right: 50;
+    width: 300px;
+    
 }
+
+#boxes { 
+    flex-direction: row;;
+}
+.whitebox {
+    background-color:  #aae02bc2;
+    height: 400px;
+    max-width: 900px;
+    margin: 0 auto;
+    color:white ;
+    text-align: center;
+    padding:25px;
+    flex-shrink: 1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#boxes ul { 
+    border:2px solid #3882f6;
+    padding: 0.5em;
+    width: 200px;
+    margin: 30px;
+    height: 150px;
+    
+}
+
+.greybox {
+    background-color:  #6c6d6adc;
+    height: 400px;
+    max-width: 900px;
+    color:white ;
+    text-align: center;
+    margin:0 auto;
+    padding:25px;
+    flex-shrink: 1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.buttonbox {
+    background-color:  #e0e2ddc7;
+    height: 400px;
+    max-width: 900px;
+    color:rgb(54, 11, 11) ;
+    text-align: center;
+    padding:25px;
+    flex-shrink: 1;
+    margin:0 auto;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.blueboxtwo {
+    background-color:  #1316cfd5;
+    height: 200px;
+    max-width: 500px;
+    color:rgba(253, 253, 253, 0.849) ;
+    text-align: center;
+    padding:15px;
+    margin:0 auto;
+
+    flex-shrink: 1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
